@@ -50,6 +50,11 @@ main div:hover p {
     color: #777777;
 }
 
+main div:hover img.rotated {
+    transform: rotateY(3.142rad);
+    transition-delay: 160ms;
+    transition-duration: 180ms;
+}
 main div {
     width: 30%;
     border: 2px solid #fb9600;
@@ -72,8 +77,8 @@ div:hover {
 }
 
 div {
-    transition-delay: 60ms;
-    transition-duration: 60ms;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
 }
 
 main div p {
